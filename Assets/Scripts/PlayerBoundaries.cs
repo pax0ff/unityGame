@@ -14,6 +14,7 @@ public class PlayerBoundaries : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //commit test
         Vector3 viewPos = transform.position;
         viewPos.x = Mathf.Clamp(viewPos.x, screenBounds.x,screenBounds.x * -1);
         viewPos.y = Mathf.Clamp(viewPos.y, screenBounds.y, screenBounds.y * -1);
